@@ -1,0 +1,1 @@
+ffplay -fflags nobuffer rtmp://45.77.177.101:1935/play/1234

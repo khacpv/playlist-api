@@ -1,0 +1,1 @@
+ffplay -fflags nobuffer http://45.77.177.101:8080/hls/1234.m3u8

@@ -1,1 +1,1 @@
-ffmpeg -re -stream_loop -1 -i playlist.mp3 -c:a copy -f flv rtmp://45.77.177.101:1935/stream/1234
+ffmpeg -re -stream_loop -1 -i playlist.mp3 -codec:a libmp3lame -b:a 128k -f flv rtmp://45.77.177.101:1935/stream/1
